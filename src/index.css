@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #1F4F15;
+  --color-pistachio: #B0D165;
+  --color-mango: #FFBD46;
+  --color-terracotta: #DD5510;
+  --color-earth: #613914;
+  --color-rose: #F1D7DE;
+  --color-offwhite: #F8FAFC;
+
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+:root {
+  --brand-forest: #1F4F15;
+  --brand-pistachio: #B0D165;
+  --brand-mango: #FFBD46;
+  --brand-terracotta: #DD5510;
+  --brand-earth: #613914;
+  --brand-rose: #F1D7DE;
+  --brand-offwhite: #F8FAFC;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #613914;
+  background-color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #B0D165;
+  border-radius: 9999px;
+}

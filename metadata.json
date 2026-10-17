@@ -1,0 +1,6 @@
+{
+  "name": "Verdia - Frescura del Campo en tu Distrito",
+  "description": "Plataforma hiperlocal de frutas y verduras frescas de productores locales entregadas en menos de 45 minutos en Miraflores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
